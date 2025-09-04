@@ -1,2 +1,2 @@
-# memristors
+# Memristors
 MultiScale Simulation of Memristors
