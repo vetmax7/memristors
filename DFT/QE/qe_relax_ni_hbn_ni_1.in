@@ -1,0 +1,73 @@
+&CONTROL
+  calculation = 'relax'
+  etot_conv_thr =   1.6000000000d-04
+  forc_conv_thr =   1.5000000000d-03
+  outdir = './out/'
+  prefix = 'ni3hnb'
+  pseudo_dir = './pseudo/'
+  tprnfor = .true.
+  tstress = .true.
+  wf_collect = .true.
+  verbosity = 'high'
+  restart_mode = 'restart'
+/
+&SYSTEM
+  degauss =   3.0000000000d-02
+  ecutrho =   4.8000000000d+02
+  ecutwfc =   6.0000000000d+01
+  ibrav = 0
+  nat = 16
+  nosym = .false.
+  nspin = 2
+  ntyp = 3
+  occupations = 'smearing'
+  smearing = 'cold'
+  starting_magnetization(3) =   0.3
+/
+&ELECTRONS
+  conv_thr         = 3.0d-8
+  adaptive_thr     = .false.
+  electron_maxstep = 800
+  mixing_mode      = 'local-TF'
+  mixing_ndim      = 12
+  mixing_beta      = 0.15
+  diagonalization  = 'david'
+  startingwfc = 'file'       ! читаем волновые функции
+  startingpot = 'file'       ! читаем плотность из charge-density
+/
+&IONS
+  ion_dynamics = 'bfgs'
+  !trust_radius_ini = 0.15
+  !trust_radius_max = 0.8
+/
+
+ATOMIC_SPECIES
+B      10.811 b_pbesol_v1.4.uspp.F.UPF
+N      14.0067 N.pbesol-theos.UPF
+Ni     58.6934 ni_pbesol_v1.4.uspp.F.UPF
+
+ATOMIC_POSITIONS crystal
+B            0.0000000000       0.0000000000       0.5894289613
+B            0.0000000000       0.0000000000       0.4999998808
+B            0.0000000000       0.0000000000       0.4105715454
+N            0.3333329856       0.6666669845       0.5894289613
+N            0.3333329856       0.6666669845       0.4999998808
+N            0.3333329856       0.6666669845       0.4105715454
+Ni           0.0000000000       0.0000000000       0.1190804094
+Ni           0.3333329856       0.6666669845       0.1773104221
+Ni           0.6666669843       0.3333329855       0.2355404198
+Ni           0.0000000000       0.0000000000       0.2937704027
+Ni           0.3333329856       0.6666669845       0.3519995511
+Ni           0.0000000000       0.0000000000       0.8809195757
+Ni           0.3333329856       0.6666669845       0.8226895332
+Ni           0.6666669843       0.3333329855       0.7644595504
+Ni           0.0000000000       0.0000000000       0.7062295675
+Ni           0.3333329856       0.6666669845       0.6480004191
+
+K_POINTS automatic
+20 20 1 0 0 0
+
+CELL_PARAMETERS angstrom
+      2.4960870743       0.0000000000       0.0000000000
+     -1.2480429615       2.1616751488       0.0000000000
+      0.0000000000       0.0000000000      35.0000000000
