@@ -21,4 +21,4 @@ reax/c was renamed to reaxff
 
 EChemDID
 
-[https://begbi.alwaysdata.net/resources.php](https://begbi.alwaysdata.net/resources.php)   [https://github.com/nonofrio/LAMMPS-hacks-public/tree/master/EChemDID-23Jun2022] (https://github.com/nonofrio/LAMMPS-hacks-public/tree/master/EChemDID-23Jun2022)
+[https://begbi.alwaysdata.net/resources.php](https://begbi.alwaysdata.net/resources.php)   [https://github.com/nonofrio/LAMMPS-hacks-public/tree/master/EChemDID-23Jun2022](https://github.com/nonofrio/LAMMPS-hacks-public/tree/master/EChemDID-23Jun2022)
