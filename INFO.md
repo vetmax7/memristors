@@ -12,3 +12,9 @@ Quantum Espresso input generator and structure visualizer [https://qeinputgenera
 [https://www.densityflow.com/en/index.html](https://www.densityflow.com/en/index.html)
 
 [https://www.latticemixer.com/builder#](https://www.latticemixer.com/builder#)
+
+[https://docs.lammps.org/pair_reaxff.html](https://docs.lammps.org/pair_reaxff.html)
+
+reax/c was renamed to reaxff
+
+[https://matsci.org/t/pair-style-reax-c-works-but-pair-style-reaxff-doesnt-in-lammps-29oct20/40964/2](https://matsci.org/t/pair-style-reax-c-works-but-pair-style-reaxff-doesnt-in-lammps-29oct20/40964/2)
