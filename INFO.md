@@ -18,3 +18,7 @@ Quantum Espresso input generator and structure visualizer [https://qeinputgenera
 reax/c was renamed to reaxff
 
 [https://matsci.org/t/pair-style-reax-c-works-but-pair-style-reaxff-doesnt-in-lammps-29oct20/40964/2](https://matsci.org/t/pair-style-reax-c-works-but-pair-style-reaxff-doesnt-in-lammps-29oct20/40964/2)
+
+EChemDID
+
+[https://begbi.alwaysdata.net/resources.php](https://begbi.alwaysdata.net/resources.php)   [https://github.com/nonofrio/LAMMPS-hacks-public/tree/master/EChemDID-23Jun2022] (https://github.com/nonofrio/LAMMPS-hacks-public/tree/master/EChemDID-23Jun2022)
